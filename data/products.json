@@ -8,7 +8,8 @@
     "color": ["white", "blue"],
     "brand": "Arrow",
     "material": "cotton",
-    "quality": "premium"
+    "quality": "premium",
+    "site": "Myntra"
   },
   {
     "id": 2,
@@ -19,7 +20,8 @@
     "color": ["red", "black"],
     "brand": "Puma",
     "material": "polyester",
-    "quality": "standard"
+    "quality": "standard",
+    "site": "Flipkart"
   },
   {
     "id": 3,
@@ -30,7 +32,8 @@
     "color": ["blue"],
     "brand": "Levis",
     "material": "denim",
-    "quality": "premium"
+    "quality": "premium",
+    "site": "Amazon"
   },
   {
     "id": 4,
@@ -39,7 +42,8 @@
     "price": 250,
     "brand": "FreshFarm",
     "quality": "organic",
-    "weight": "1kg"
+    "weight": "1kg",
+    "site": "Amazon"
   },
   {
     "id": 5,
@@ -48,7 +52,8 @@
     "price": 2999,
     "brand": "SoundMax",
     "color": ["black", "white"],
-    "quality": "standard"
+    "quality": "standard",
+    "site": "Flipkart"
   },
   {
     "id": 6,
@@ -59,6 +64,8 @@
     "color": ["blue", "grey"],
     "brand": "Nike",
     "material": "mesh",
-    "quality": "premium"
+    "quality": "premium",
+    "site": "Myntra"
   }
 ]
+
