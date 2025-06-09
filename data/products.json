@@ -1,0 +1,14 @@
+[
+  {
+    "name": "Formal Shirt",
+    "category": "clothing",
+    "tags": ["formal", "event", "men"],
+    "price": 999
+  },
+  {
+    "name": "Gift Candle Set",
+    "category": "gift",
+    "tags": ["gift", "budget", "birthday"],
+    "price": 450
+  }
+]
