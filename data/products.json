@@ -1,14 +1,64 @@
 [
   {
+    "id": 1,
     "name": "Formal Shirt",
-    "category": "clothing",
-    "tags": ["formal", "event", "men"],
-    "price": 999
+    "category": "fashion",
+    "price": 999,
+    "size": ["M", "L", "XL"],
+    "color": ["white", "blue"],
+    "brand": "Arrow",
+    "material": "cotton",
+    "quality": "premium"
   },
   {
-    "name": "Gift Candle Set",
-    "category": "gift",
-    "tags": ["gift", "budget", "birthday"],
-    "price": 450
+    "id": 2,
+    "name": "Casual T-Shirt",
+    "category": "fashion",
+    "price": 350,
+    "size": ["S", "M", "L"],
+    "color": ["red", "black"],
+    "brand": "Puma",
+    "material": "polyester",
+    "quality": "standard"
+  },
+  {
+    "id": 3,
+    "name": "Jeans",
+    "category": "fashion",
+    "price": 1200,
+    "size": ["32", "34", "36"],
+    "color": ["blue"],
+    "brand": "Levis",
+    "material": "denim",
+    "quality": "premium"
+  },
+  {
+    "id": 4,
+    "name": "Organic Apples (1kg)",
+    "category": "grocery",
+    "price": 250,
+    "brand": "FreshFarm",
+    "quality": "organic",
+    "weight": "1kg"
+  },
+  {
+    "id": 5,
+    "name": "Wireless Earbuds",
+    "category": "accessories",
+    "price": 2999,
+    "brand": "SoundMax",
+    "color": ["black", "white"],
+    "quality": "standard"
+  },
+  {
+    "id": 6,
+    "name": "Men's Running Shoes",
+    "category": "footwear",
+    "price": 3999,
+    "size": ["8", "9", "10"],
+    "color": ["blue", "grey"],
+    "brand": "Nike",
+    "material": "mesh",
+    "quality": "premium"
   }
 ]

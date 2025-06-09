@@ -1,16 +1,23 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>SmartSphere AI</title>
-  <link rel="stylesheet" href="style.css" />
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Multi-site Shopping Search</title>
 </head>
 <body>
-  <h1>SmartSphere AI</h1>
-  <input type="text" id="query" placeholder="What are you looking for?" />
-  <button onclick="sendQuery()">Search</button>
+  <h2>Search Products on Multiple Shopping Sites</h2>
 
-  <div id="results"></div>
+  <input type="text" id="searchQuery" placeholder="Type your search query" />
+  <br><br>
 
-  <script src="script.js"></script>
+  <button onclick="redirectToSite('myntra')">Search Myntra</button>
+  <button onclick="redirectToSite('flipkart')">Search Flipkart</button>
+  <button onclick="redirectToSite('amazon')">Search Amazon</button>
+  <button onclick="redirectToSite('ajio')">Search Ajio</button>
+  <button onclick="redirectAll()">Search All Sites</button>
+
+<script src="script.js"></script>
 </body>
 </html>
+

@@ -1,24 +1,20 @@
-from flask import Flask, request, jsonify
-import json
+from flask import Flask, jsonify, send_from_directory
 
-app = Flask(__name__)
+app = Flask(__name__, static_folder='frontend', static_url_path='')
 
-with open('../data/products.json') as f:
-    products = json.load(f)
+# Serve frontend files
+@app.route('/')
+def serve_index():
+    return send_from_directory('frontend', 'index.html')
 
-@app.route('/recommend', methods=['POST'])
-def recommend():
-    data = request.get_json()
-    query = data['query'].lower()
-    matched = []
-
-    for product in products:
-        for tag in product['tags']:
-            if tag in query:
-                matched.append(product)
-                break
-
-    return jsonify(matched)
+# Example: Optional API to get products from JSON (can be expanded)
+@app.route('/api/products')
+def get_products():
+    import json
+    with open('products.json') as f:
+        products = json.load(f)
+    return jsonify(products)
 
 if __name__ == '__main__':
     app.run(debug=True)
+
